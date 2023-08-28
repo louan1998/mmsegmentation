@@ -3,6 +3,7 @@ _base_ = [
     '../_base_/datasets/chase_db1.py', '../_base_/default_runtime.py',
     '../_base_/schedules/schedule_40k.py'
 ]
+data_root = ''
 crop_size = (128, 128)
 data_preprocessor = dict(size=crop_size)
 model = dict(
